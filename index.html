@@ -23,7 +23,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#page-top"><i class="fa fa-fw fa-home"></i></a>
+                    <a class="navbar-brand" href="#page-top">
+                        <i class="fa fa-fw fa-home"></i>
+                    </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -32,7 +34,10 @@
                             <a href="#page-top"></a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#portfolio">Portfolio</a>
+                            <a href="#portfolio">Graphic Artist</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#developer">Developer</a>
                         </li>
                         <li class="page-scroll">
                             <a href="#about">About</a>
@@ -50,7 +55,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <img class="img-responsive img-circle img-profile" src="img/profile.jpg" alt="">
+                        <div class="img-profile">
+                            <img class="img-circle img-responsive" src="img/profile.jpg" alt="">
+                        </div>
+
                         <div class="intro-text">
                             <span class="name">Staffan Adolfsson</span>
                             <hr class="line">
@@ -62,37 +70,59 @@
         </header>
 
         <!-- Portfolio Grid Section -->
-        <section id="portfolio">
+        <section class="grey" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>Portfolio</h2>
+                        <h2>Graphic Artist</h2>
                         <hr class="line">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 portfolio-item">
-                        <img src="img/portfolio/logo_bluesMan_01.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-link">
+                            <img src="img/portfolio/logo_bluesMan_01.jpg" class="img-responsive" alt="">
+                        </div>
                     </div>
 
                     <div class="col-sm-6 portfolio-item">
-                        <img src="img/portfolio/logo_bluesMan_02.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-link">
+                            <img src="img/portfolio/logo_bluesMan_01.jpg" class="img-responsive" alt="">
+                        </div>
                     </div>
 
                     <div class="col-sm-6 portfolio-item">
-                        <img src="img/portfolio/logo_bluesMan_03.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-link">
+                            <img src="img/portfolio/logo_bluesMan_01.jpg" class="img-responsive" alt="">
+                        </div>
                     </div>
 
                     <div class="col-sm-6 portfolio-item">
-                        <img src="img/portfolio/logo_bluesMan_04.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-link">
+                            <img src="img/portfolio/logo_bluesMan_01.jpg" class="img-responsive" alt="">
+                        </div>
                     </div>
 
                     <div class="col-sm-6 portfolio-item">
-                        <img src="img/portfolio/logo_bluesMan_05.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-link">
+                            <img src="img/portfolio/logo_bluesMan_01.jpg" class="img-responsive" alt="">
+                        </div>
                     </div>
 
                     <div class="col-sm-6 portfolio-item">
-                        <img src="img/portfolio/logo_bluesMan_06.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-link">
+                            <img src="img/portfolio/logo_bluesMan_01.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p><br>
+                            <h3>Tools</h3>
+                        </p>
+                        <div class="dev-icons">
+                            <img src="img/adobe_icons.png" class="img-responsive center-block" alt="Illustratot | Photoshop" title="Illustratot | Photoshop">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -109,23 +139,33 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-lg-offset-2">
-                        <p>Degree as javadeveloper from <a href="https://www.yrkeshogskolan.se/Higher-Vocational-Education-HVE/" target="blank">Higher Vocational Education</a>.</p>
+                        <p>Degree as javadeveloper from
+                            <a href="https://www.yrkeshogskolan.se/Higher-Vocational-Education-HVE/" target="blank">Higher Vocational Education</a>.</p>
 
                     </div>
                     <div class="col-lg-4">
                         <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                     </div>
-
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p><br>
+                            <h3>Tools</h3>
+                        </p>
+                        <div class="dev-icons">
+                            <img src="img/dev_icons.png" class="img-responsive" alt="Java | Angular | HTML5 | GIT | JavaScript | Node" title="Java | Angular | HTML5 | GIT | JavaScript | Node">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- About Section -->
-        <section class="success" id="about">
+        <section class="success grey" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>About</h2>
+                        <h2>About Me</h2>
                         <hr class="line">
                     </div>
                 </div>
@@ -136,7 +176,6 @@
                     <div class="col-lg-4">
                         <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -176,30 +215,15 @@
                             <h3>Social</h3>
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn-social btn-outline">
-                                        <i class="fa fa-fw fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline">
-                                        <i class="fa fa-fw fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline">
-                                        <i class="fa fa-fw fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline">
+                                    <a href="https://se.linkedin.com/in/staffanadolfsson" class="btn-social btn-outline">
                                         <i class="fa fa-fw fa-linkedin"></i>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline">
-                                        <i class="fa fa-fw fa-dribbble"></i>
+                                <!-- <li>
+                                    <a href="https://github.com/StaffanAdolfsson" class="btn-social btn-outline">
+                                        <i class="fa fa-fw fa-github"></i>
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
