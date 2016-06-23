@@ -177,6 +177,13 @@ section.dev a:hover {
     margin: 0 0 15px;
 }
 
+#portfolio .portfolio-item img {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 555px;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -275,4 +282,12 @@ footer .footer-below {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+}
+
+
+
+@media(min-width:767px) {
+    .img-profile {
+        max-width: 256px;
+    }
 }
